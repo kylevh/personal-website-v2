@@ -18,7 +18,7 @@ module.exports = {
     extend: {
       colors: {
         kyle: {
-          white: '#FAF0E6',
+          white: '#FBFAF6',
           dark: '#26222F',
         },
         border: "hsl(var(--border))",
