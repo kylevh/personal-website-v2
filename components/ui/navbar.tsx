@@ -10,7 +10,7 @@ function Navbar() {
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
-        <header className="text-gray-600  body-font block h-24 z-auto pt-4 w-full">
+        <header className="text-gray-600 body-font block h-24 z-auto pt-4 w-full">
             {/* Desktop navbar */}
             <div className="container flex flex-wrap p-5 flex-col items-end justify-center lg:justify-end ">
                 <nav className="flex flex-wrap items-end text-base justify-end">

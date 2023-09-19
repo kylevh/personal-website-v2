@@ -15,10 +15,10 @@ export default function Home() {
   }
 
   return (
-    <main className="flex h-screen items-center justify-between overflow-hidden p-2 sm:p-24 bg-kyle-white">
+    <main className="flex h-screen items-center justify-center p-2 sm:p-24 bg-kyle-white">
       {/* <Navbar/> */}
       {/* Container for hero home page */}
-      <div className="grid grid-cols-3 lg:grid-cols-12 overflow-hidden p-4 gap-2 h-screen w-full ">
+      <div className="grid grid-cols-3 lg:grid-cols-12 overflow-hidden p-4 gap-2 h-screen w-full max-w-[100rem]">
 
         <div className="w-full col-span-12 col-start-1">
           <div className='h-20'>
