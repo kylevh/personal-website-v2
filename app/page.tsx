@@ -1,6 +1,5 @@
 import { sf } from "@/app/fonts";
 import Navbar from "@/components/ui/navbar"
-import Link from "next/link";
 
 export default function Home() {
   let motd = "";
@@ -32,7 +31,7 @@ export default function Home() {
           <h1 className={`${sf.className} font-bold text-7xl sm:text-8xl sm:px-0 sm:mb-6 mb-1 text-left text-kyle-dark`}> {" "} huynh, </h1>
 
           <h1 className={`${sf.className} font-light text-7xl sm:text-8xl sm:px-0 text-left text-kyle-dark`} > designer </h1>
-          
+
           <div className="lg:h-64 h-0" />
         </div>
 

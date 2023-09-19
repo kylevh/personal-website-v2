@@ -18,7 +18,7 @@ function ProjectsContainer() {
     <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-3 gap-4">
       {
         portfolioItems.map((item) => {
-          return <div className="max-w-full rounded-lg mb-8">
+          return <div className="max-w-full rounded-lg mb-8" key={item.id}>
             <div className="relative group">
               <Image
                 className="border-4 border-kyle-dark rounded-smo object-cover hover:opacity-20 transition duration-200 h-60 "
@@ -56,7 +56,7 @@ function ProjectsContainer() {
             <p className={`${sf.className} font-light text-xl text-left text-kyle-dark my-1`}>{item.desc}</p>
             {
               item.categories.map((category) => {
-                return <Badge className="mr-1">{category}</Badge>
+                return <Badge className="mr-1" key={category}>{category}</Badge>
               })
             }
           </div>
