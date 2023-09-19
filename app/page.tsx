@@ -30,7 +30,9 @@ export default function Home() {
         <div className="w-full h-auto col-span-3 col-start-1">
           <h1 className={`${sf.className} font-bold text-7xl sm:text-8xl sm:px-0 sm:mb-6 mb-2 text-left text-kyle-dark`}> kyle </h1>
           <h1 className={`${sf.className} font-bold text-7xl sm:text-8xl sm:px-0 sm:mb-6 mb-1 text-left text-kyle-dark`}> {" "} huynh, </h1>
+
           <h1 className={`${sf.className} font-light text-7xl sm:text-8xl sm:px-0 text-left text-kyle-dark`} > designer </h1>
+          
           <div className="lg:h-64 h-0" />
         </div>
 

@@ -1,15 +1,22 @@
 const projects = [
     {
-        id: 3,
-        category: 'Node.js',
-        link2: 'https://simplytasks.herokuapp.com',
-        imagePath: "/images/projects/simplytasks.png",
-        title: 'SimplyTasks',
-        desc: `A web app that helps manage your tasks utilizing MongoDB for storing data and user authentication`,
-        categories: ['Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'Bootstrap']
+        id: 8,
+        category: 'React.js',
+        link2: 'https://devpost.com/software/kual-notes?ref_content=my-projects-tab&ref_feature=my_projects',
+        imagePath: "/images/projects/kualnotes.jpg",
+        title: 'Kual. Notes - An AI-driven mental health journaling app',
+        desc: `UI/UX prototype for a mental health journaling app that uses machine learning to generate health recommendations based on user input`,
+        categories: ['React.js', 'CSS', 'Python', 'JavaScript']
     },
     {
-
+        id: 10,
+        category: 'Django',
+        imagePath: "/images/projects/placeholder.png",
+        title: 'College Affordability Backend Testing Tool',
+        desc: 'Web app that simplifies the testing process, allowing developers to efficiently run test scripts and manage files',
+        categories: ['Django', 'AWS', 'Python']
+    },
+    {
         id: 2,
         category: 'Unity',
         link2: 'https://ozp-games.itch.io/pokepoke',
@@ -22,10 +29,20 @@ const projects = [
         id: 5,
         category: 'React.js',
         link1: 'https://github.com/kylevh/personal-website-v1',
+        link2: 'https://personal-website-v1-4iw34u43b-kylevh.vercel.app/',
         imagePath: "/images/projects/personal.png",
         title: 'Personal Website V1',
         desc: 'My first version of my personal website built using React.js',
         categories: ['React.js', 'Vercel', 'SCSS', 'JavaScript']
+    },
+    {
+        id: 9,
+        category: 'React.js',
+        link1: 'https://github.com/kylevh/personal-website-v2',
+        imagePath: "/images/projects/personal.png",
+        title: 'Personal Website V2',
+        desc: 'My current personal website built using NextJS 13.',
+        categories: ['NextJS 13', 'Vercel', 'TypeScript', 'Tailwind CSS']
     },
     {
         id: 4,
@@ -57,6 +74,15 @@ const projects = [
         categories: ['Python', 'AppleScript']
     },
     {
+        id: 3,
+        category: 'Node.js',
+        link2: 'https://simplytasks.herokuapp.com',
+        imagePath: "/images/projects/simplytasks.png",
+        title: 'SimplyTasks',
+        desc: `A web app that helps manage your tasks utilizing MongoDB for storing data and user authentication`,
+        categories: ['Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'Bootstrap']
+    },
+    {
         id: 7,
         category: 'Unity',
         link2: 'https://kylevh.itch.io/penguin-wars',
@@ -65,15 +91,6 @@ const projects = [
         desc: `A 3D Turn-based strategy game developed for the UW Tri-Campus Game Jam 2021`,
         categories: ['Unity', 'C#', '3D']
     },
-    {
-        id: 8,
-        category: 'React.js',
-        link2: 'https://devpost.com/software/kual-notes?ref_content=my-projects-tab&ref_feature=my_projects',
-        imagePath: "/images/projects/kualnotes.jpg",
-        title: 'Kual. Notes - An AI-driven mental health journaling app',
-        desc: `UI/UX prototype for a mental health journaling app that uses machine learning to generate health recommendations based on user input`,
-        categories: ['React.js', 'CSS', 'Python', 'JavaScript']
-    }
 ]
 
 export default projects;
