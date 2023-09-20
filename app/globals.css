@@ -71,7 +71,7 @@
 
 @layer base {
   ::selection {
-    background: #white;
+    background: #72727283;
   }
 
   * {

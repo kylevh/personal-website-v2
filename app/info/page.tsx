@@ -53,7 +53,7 @@ export default function InfoPage() {
                         <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark whitespace-pre`}>
                             Hi, I am <strong>Kyle Huynh</strong>
                             <Image alt="" src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" className="inline mb-2 mx-2" width={30} height={30} />
-                            it's nice to meet you. 
+                            it&apos;s nice to meet you. 
                         </p>
 
 
