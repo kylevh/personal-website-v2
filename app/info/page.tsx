@@ -65,7 +65,7 @@ export default function InfoPage() {
                             it&apos;s nice to meet you.
                         </p>
                         <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
-                            I'm a recent graduate at the University of Washington Bothell, majoring in Computer Science & Software Engineering.
+                            I&apos;m a recent graduate at the University of Washington Bothell, majoring in Computer Science & Software Engineering.
                         </p>
                         <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
                             My areas of interest include UI/UX, web development, DevOps, and game development.
