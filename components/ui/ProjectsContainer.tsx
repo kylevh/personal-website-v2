@@ -36,7 +36,7 @@ const images = {
 
 function ProjectsContainer() {
   const [portfolioItems, setPortfolioItems] = useState(portfolios);
-
+  const reversedArray: ProjectItem[] = portfolioItems.slice().reverse();
 
   return (
     <motion.div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-3 gap-4"
@@ -45,7 +45,7 @@ function ProjectsContainer() {
     animate="show"
     >
       {
-        portfolioItems.map((item) => {
+        reversedArray.map((item) => {
           return <motion.div className="max-w-full rounded-lg mb-8" key={item.id} variants={images}>
             <div className="relative group">
               <Image
@@ -80,8 +80,8 @@ function ProjectsContainer() {
               </div>
             </div>
 
-            <h1 className={`${sf.className} font-regular text-3xl text-left text-kyle-dark mt-4`}>{item.title}</h1>
-            <p className={`${sf.className} font-light text-xl text-left text-kyle-dark my-1`}>{item.desc}</p>
+            <h1 className={`${sf.className} font-regular text-3xl text-left text-kyle-dark mt-4 underline cursor-pointer`}><Link href={`/works/${item.id}`}>{item.title}</Link></h1>
+            <p className={`${sf.className} font-light text-xl text-left text-kyle-dark my-2 leading-6`}>{item.desc}</p>
             {
               item.categories.map((category) => {
                 return <Badge className="mr-1" key={category}>{category}</Badge>

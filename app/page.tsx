@@ -49,7 +49,7 @@ export default function Home() {
           <h1 className={`${sf.className} w-96 lg:mt-40 font-bold text-4xl xl sm:text-4xl text-left text-kyle-dark `} > {"{"} {motd} {"}"} </h1>
           <div className="w-8 sm:w-12 h-[5px] sm:h-[7px] col-span-2 col-start-6 my-6 bg-kyle-dark" />
           <p className={`${sf.className} md:w-96 font-light text-3xl sm:text-3xl text-left text-kyle-dark`}>
-            i’m kyle, a multi-disciplinary designer and software engineer based
+            i’m kyle, a software engineer and graphic designer based
             in seattle, wa
           </p>
         </UpAnimation>
