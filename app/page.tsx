@@ -1,5 +1,10 @@
 import { sf } from "@/app/fonts";
 import Navbar from "@/components/ui/navbar"
+import HeroCursorText from '@/components/ui/HeroCursorText'
+import { AnimationWrapper } from "@/components/pages/AnimationWrapper";
+import { LeftInAnimation } from "@/components/pages/LeftInAnimation";
+import { RightInAnimation } from "@/components/pages/RightInAnimation";
+import { UpAnimation } from "@/components/pages/UpAnimation";
 
 export default function Home() {
   let motd = "";
@@ -15,28 +20,27 @@ export default function Home() {
 
   return (
     <main className="flex h-screen items-center justify-center p-2 sm:p-24 bg-kyle-white">
-      {/* <Navbar/> */}
       {/* Container for hero home page */}
-      <div className="grid grid-cols-3 lg:grid-cols-12 overflow-hidden p-4 gap-2 h-screen w-full max-w-[100rem]">
+      <div className="grid grid-cols-3 lg:grid-cols-12 p-4 gap-2 h-screen w-full max-w-[100rem]">
 
-        <div className="w-full col-span-12 col-start-1">
+        <div className="w-full col-span-12 col-start-1 md:h-52">
           <div className='h-20'>
             <Navbar />
           </div>
         </div>
 
         {/* Left Header Text */}
-        <div className="w-full h-auto col-span-3 col-start-1">
+        <UpAnimation className="w-full h-auto col-span-3 col-start-1">
           <h1 className={`${sf.className} font-bold text-7xl sm:text-8xl sm:px-0 sm:mb-6 mb-2 text-left text-kyle-dark`}> kyle </h1>
           <h1 className={`${sf.className} font-bold text-7xl sm:text-8xl sm:px-0 sm:mb-6 mb-1 text-left text-kyle-dark`}> {" "} huynh, </h1>
 
-          <h1 className={`${sf.className} font-light text-7xl sm:text-8xl sm:px-0 text-left text-kyle-dark`} > designer </h1>
+          <HeroCursorText />
 
           <div className="lg:h-64 h-0" />
-        </div>
+        </UpAnimation>
 
         {/* Right header text bg-purple-700 sm:bg-red-700 md:bg-orange-400 lg:bg-yellow-200 xl:bg-green-700 */}
-        <div className="w-full col-span-4 col-start-1 mt-0 lg:mt-28
+        <UpAnimation className="w-full col-span-4 col-start-1 mt-0 lg:mt-28
         lg:col-span-5 
         lg:col-start-8
         xl:col-start-9
@@ -48,7 +52,7 @@ export default function Home() {
             i’m kyle, a multi-disciplinary designer and software engineer based
             in seattle, wa
           </p>
-        </div>
+        </UpAnimation>
       </div>
 
     </main>

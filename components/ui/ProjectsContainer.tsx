@@ -7,18 +7,46 @@ import { Badge } from '@/components/ui/badge'
 import { sf } from "@/app/fonts";
 import Link from 'next/link';
 import portfolios from '@/components/projects.js';
+import { motion, AnimatePresence } from 'framer-motion'
 
 
+const variants = {
+  hidden: {opacity: 0},
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+};
+
+const images = {
+  hidden: {
+    opacity: 0,
+    y: 30,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: .5
+    },
+  },
+};
 
 function ProjectsContainer() {
   const [portfolioItems, setPortfolioItems] = useState(portfolios);
 
 
   return (
-    <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-3 gap-4">
+    <motion.div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-3 gap-4"
+    variants={variants}
+    initial="hidden"
+    animate="show"
+    >
       {
         portfolioItems.map((item) => {
-          return <div className="max-w-full rounded-lg mb-8" key={item.id}>
+          return <motion.div className="max-w-full rounded-lg mb-8" key={item.id} variants={images}>
             <div className="relative group">
               <Image
                 className="border-4 border-kyle-dark rounded-smo object-cover hover:opacity-20 transition duration-200 h-60 "
@@ -59,11 +87,11 @@ function ProjectsContainer() {
                 return <Badge className="mr-1" key={category}>{category}</Badge>
               })
             }
-          </div>
+          </motion.div>
         })}
 
 
-    </div >
+    </motion.div >
   )
 }
 

@@ -83,6 +83,15 @@ const projects = [
         categories: ['Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'Bootstrap']
     },
     {
+        id: 11,
+        category: 'Node.js',
+        link2: 'https://dephomes.com',
+        imagePath: "/images/projects/placeholder.png",
+        title: 'DEPHomes Website',
+        desc: `A NextJS 13 Website designed from scratch`,
+        categories: ['NextJS 13', 'Vercel', 'TypeScript', 'Tailwind CSS',]
+    },
+    {
         id: 7,
         category: 'Unity',
         link2: 'https://kylevh.itch.io/penguin-wars',

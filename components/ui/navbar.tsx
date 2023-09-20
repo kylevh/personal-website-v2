@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { sf } from "@/app/fonts";
+import { FadeInAnimation } from '../pages/FadeInAnimation';
 
 
 
@@ -10,7 +11,7 @@ function Navbar() {
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
-        <header className="text-gray-600 body-font block h-24 z-auto pt-4 w-full">
+        <FadeInAnimation className="text-gray-600 body-font block h-24 z-auto pt-4 w-full">
             {/* Desktop navbar */}
             <div className="container flex flex-wrap p-5 flex-col items-end justify-center lg:justify-end ">
                 <nav className="flex flex-wrap items-end text-base justify-end">
@@ -36,9 +37,9 @@ function Navbar() {
             </div>
 
             {/* Mobile navbar */}
-            
 
-        </header>
+
+        </FadeInAnimation>
     )
 }
 
