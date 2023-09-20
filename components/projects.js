@@ -81,16 +81,6 @@ const projects = [
     },
     {
         id: 8,
-        title: 'Real Estate Website Design',
-        desc: `A fully-customized, sleek, and modern website created from scratch using NextJS 13 and TypeScript`,
-        pageDesc: `The DEPHomes design is a remarkable project that showcases the technical prowess and extensive effort put forth by the developer. Employing the latest technologies, including NextJS 13, TypeScript, and Tailwind CSS, this website was meticulously crafted from the ground up to meet the needs of a prestigious real estate company. Collaborating closely with the company's employees, I create a design that not only met but exceeded their expectations, ensuring a seamless and visually captivating user experience.`,
-        imagePath: "/images/projects/dephomes.png",
-        link1: '',
-        link2: 'https://dephomes.com',
-        categories: ['NextJS 13', 'Vercel', 'TypeScript', 'Tailwind CSS',]
-    },
-    {
-        id: 9,
         title: 'Kyle Huynh - Graphic Design',
         desc: `See some of my graphic design work on Behance.net!`,
         pageDesc: `See some of my graphic design work on Behance.net! Check out the info page to view my designs!`,
@@ -99,6 +89,17 @@ const projects = [
         link2: 'https://www.behance.net/kylehuynh',
         categories: ['Adobe Photoshop', 'Blender 3D', 'Figma', 'Adobe Illustrator']
     },
+    {
+        id: 9,
+        title: 'Real Estate Website Design',
+        desc: `A fully-customized, sleek, and modern website created from scratch using NextJS 13 and TypeScript`,
+        pageDesc: `The DEPHomes design is a remarkable project that showcases the technical prowess and extensive effort put forth by the developer. Employing the latest technologies, including NextJS 13, TypeScript, and Tailwind CSS, this website was meticulously crafted from the ground up to meet the needs of a prestigious real estate company. Collaborating closely with the company's employees, I create a design that not only met but exceeded their expectations, ensuring a seamless and visually captivating user experience.`,
+        imagePath: "/images/projects/dephomes.png",
+        link1: '',
+        link2: 'https://dephomes.com',
+        categories: ['NextJS 13', 'Vercel', 'TypeScript', 'Tailwind CSS',]
+    },
+    
     {
         id: 10,
         title: 'Kual. Notes - An AI-driven mental health journaling app',

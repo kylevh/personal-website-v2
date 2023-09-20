@@ -6,6 +6,7 @@ import { FadeInAnimation } from '@/components/pages/FadeInAnimation';
 import { RightInAnimation } from '@/components/pages/RightInAnimation';
 import { LeftInAnimation } from '@/components/pages/LeftInAnimation';
 import { UpAnimation } from '@/components/pages/UpAnimation';
+import { Button } from '@/components/ui/button';
 
 
 export default function InfoPage() {
@@ -27,18 +28,26 @@ export default function InfoPage() {
                 <UpAnimation className='flex flex-col col-span-6  align-top'>
                     <div className="flex flex-row md:flex-col items-center w-full">
                         <div className='flex-1'>
-                            <Image alt='Headshot of myself' height={200} width={200} src='/images/kylehuynh.jpg' className='w-full h-auto' />
-                            <div className="hidden md:block md:mt-10">
+                            <div className="relative">
+                                <Image alt='Headshot of myself' height={200} width={200} src='/images/kh_cropped.png' className='absolute w-full h-auto z-20' />
+                                <Image alt='Headshot of myself' height={200} width={200} src='/images/kh_cropped.png' className=' w-full h-auto z-10' />
+
+                                <Image alt='Headshot of myself' height={200} width={200} src='/images/dark.png' className='hidden md:block bg-kyle-dark w-full h-auto absolute z-10 top-12 left-12' />
+                            </div>
+
+                            <div className="hidden md:block md:mt-20">
+                                <h1 className={`${sf.className} font-light text-3xl underline`}><Link href="mailto:kylevh@outlook.com">email</Link></h1>
                                 <h1 className={`${sf.className} font-light text-3xl underline`}><Link href="https://www.linkedin.com/in/kylevhuynh/">linkedin</Link></h1>
                                 <h1 className={`${sf.className} font-light text-3xl underline`}><Link href="https://www.github.com/kylevh">github</Link></h1>
-                                <h1 className={`${sf.className} font-light text-3xl underline`}><Link href="https://www.behance.net/kylehuynh">behance</Link></h1>
+                                <button className={`${sf.className} font-light text-2xl mt-3 h-11 px-5 text-kyle-dark transition-colors duration-150 border border-kyle-dark rounded-none focus:shadow-outline hover:bg-kyle-dark hover:text-kyle-white`}>resume</button>
                             </div>
 
                         </div>
                         <div className='md:hidden flex-1 p-4'>
+                            <h1 className={`${sf.className} font-light text-3xl underline`}><Link href="mailto:kylevh@outlook.com">email</Link></h1>
                             <h1 className={`${sf.className} text-2xl font-light underline`}><Link href="https://www.linkedin.com/in/kylevhuynh/">linkedin</Link></h1>
                             <h1 className={`${sf.className} text-2xl font-light underline`}><Link href="https://www.github.com/kylevh">github</Link></h1>
-                            <h1 className={`${sf.className} text-2xl font-light underline`}><Link href="https://www.behance.net/kylehuynh">behance</Link></h1>
+                            <Button className={`${sf.className} font-light text-xl mt-2`}>resume</Button>
                         </div>
 
 
@@ -50,10 +59,23 @@ export default function InfoPage() {
                     <div className='w-full flex flex-col justify-end '>
                         <h1 className={`${sf.className} g:mt-40 font-bold text-3xl xl sm:text-4xl text-left text-kyle-dark`}>about me</h1>
                         <div className="w-8 sm:w-12 h-[5px] sm:h-[7px] col-span-2 col-start-6 my-6 bg-kyle-dark" />
-                        <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark whitespace-pre`}>
-                            Hi, I am <strong>Kyle Huynh</strong>
-                            <Image alt="" src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" className="inline mb-2 mx-2" width={30} height={30} />
-                            it&apos;s nice to meet you. 
+                        <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
+                            Hi, I am <strong className="font-bold">Kyle Huynh</strong>
+                            <Image alt="" src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" className="inline mb-1 mx-2" width={25} height={25} />
+                            it&apos;s nice to meet you.
+                        </p>
+                        <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
+                            I'm a recent graduate at the University of Washington Bothell, majoring in Computer Science & Software Engineering.
+                        </p>
+                        <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
+                            My areas of interest include UI/UX, web development, DevOps, and game development.
+                        </p>
+                        <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
+                            With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.
+                        </p>
+
+                        <p className={`${sf.className} font-bold text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4 underline`}>
+                            <Link href="/contact">Get in touch!</Link>
                         </p>
 
 

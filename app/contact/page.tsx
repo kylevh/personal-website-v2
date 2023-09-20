@@ -27,7 +27,7 @@ export default function ContactPage() {
                     <div className='w-full flex flex-col justify-end '>
                         <h1 className={`${sf.className} g:mt-40 font-bold text-3xl xl sm:text-4xl text-left text-kyle-dark`}>contact me</h1>
                         <div className="w-8 sm:w-12 h-[5px] sm:h-[7px] col-span-2 col-start-6 my-6 bg-kyle-dark" />
-                        <p className={`${sf.className} font-light text-2xl sm:text-2xl lg:text-3xl text-left text-kyle-dark`}> wanna get in contact? send me a message through this form or email me at kylevh@outlook.com </p>
+                        <p className={`${sf.className} font-light text-2xl sm:text-2xl lg:text-3xl text-left text-kyle-dark`}> want to get in contact? send me a message through this form or email me at <strong className="underline"><Link href="mailto:kylevh@outlook.com">kylevh@outlook.com</Link></strong> </p>
                     </div>
                 </RightInAnimation>
 
