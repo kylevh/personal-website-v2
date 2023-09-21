@@ -57,7 +57,7 @@ const projects = [
         imagePath: "/images/projects/kh.png",
         link1: 'https://github.com/kylevh/personal-website-v2',
         link2: '',
-        categories: ['NextJS 13', 'Vercel', 'TypeScript', 'Tailwind CSS']
+        categories: ['Next.js 13', 'Vercel', 'TypeScript', 'Tailwind CSS']
     },
     {
         id: 6,
@@ -97,7 +97,7 @@ const projects = [
         imagePath: "/images/projects/dephomes.png",
         link1: '',
         link2: 'https://dephomes.com',
-        categories: ['NextJS 13', 'Vercel', 'TypeScript', 'Tailwind CSS',]
+        categories: ['Next.js 13', 'Vercel', 'TypeScript', 'Tailwind CSS',]
     },
     
     {
@@ -125,7 +125,7 @@ const projects = [
         imagePath: "/images/projects/cam.png",
         link1: '',
         link2: '',
-        categories: ['Django', 'AWS', 'Python']
+        categories: ['Django', 'AWS', 'Python', 'JavaScript',]
     },
 
 

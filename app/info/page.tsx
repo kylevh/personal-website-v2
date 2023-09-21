@@ -8,7 +8,7 @@ import { LeftInAnimation } from '@/components/pages/LeftInAnimation';
 import { UpAnimation } from '@/components/pages/UpAnimation';
 import { Button } from '@/components/ui/button';
 
-
+const RESUME_URL = 'https://drive.google.com/file/d/1JTKNw_McbYH1mJo7t1by8MRfwXeIblH0/view'
 export default function InfoPage() {
     return (
         <main className="flex min-h-screen  justify-center p-2 bg-kyle-white">
@@ -39,7 +39,7 @@ export default function InfoPage() {
                                 <h2 className={`${sf.className} font-light text-3xl underline`}><Link href="mailto:kylevh@outlook.com">email</Link></h2>
                                 <h2 className={`${sf.className} font-light text-3xl underline`}><Link href="https://www.linkedin.com/in/kylevhuynh/">linkedin</Link></h2>
                                 <h2 className={`${sf.className} font-light text-3xl underline`}><Link href="https://www.github.com/kylevh">github</Link></h2>
-                                <button className={`${sf.className} font-light text-2xl mt-3 h-11 px-5 text-kyle-dark transition-colors duration-150 border border-kyle-dark rounded-none focus:shadow-outline hover:bg-kyle-dark hover:text-kyle-white`}><Link href="https://drive.google.com/file/d/1krIRShKDVkbkc8uEOmfd5J9kuhti9RWR/view">resume</Link></button>
+                                <button className={`${sf.className} font-light text-2xl mt-3 h-11 px-5 text-kyle-dark transition-colors duration-150 border border-kyle-dark rounded-none focus:shadow-outline hover:bg-kyle-dark hover:text-kyle-white`}><Link href={RESUME_URL}>resume</Link></button>
                             </div>
 
                         </div>
@@ -47,7 +47,7 @@ export default function InfoPage() {
                             <h2 className={`${sf.className} text-2xl font-light underline`}><Link href="mailto:kylevh@outlook.com">email</Link></h2>
                             <h2 className={`${sf.className} text-2xl font-light underline`}><Link href="https://www.linkedin.com/in/kylevhuynh/">linkedin</Link></h2>
                             <h2 className={`${sf.className} text-2xl font-light underline`}><Link href="https://www.github.com/kylevh">github</Link></h2>
-                            <Button className={`${sf.className} font-light text-xl mt-2`}><Link href="https://drive.google.com/file/d/1krIRShKDVkbkc8uEOmfd5J9kuhti9RWR/view">resume</Link></Button>
+                            <Button className={`${sf.className} font-light text-xl mt-2`}><Link href={RESUME_URL}>resume</Link></Button>
                         </div>
 
 
