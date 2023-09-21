@@ -55,7 +55,7 @@ export default function InfoPage() {
                 </UpAnimation>
 
                 {/* Right section */}
-                <UpAnimation className='col-span-4 col-start-1 md:col-start-7 md:mt-36 my-8 h-auto w-full md:ml-14'>
+                <UpAnimation className='col-span-4 col-start-1 md:col-start-7 md:mt-24 my-8 h-auto w-full md:ml-14'>
                     <div className='w-full flex flex-col justify-end '>
                         <h1 className={`${sf.className} g:mt-40 font-bold text-3xl xl sm:text-4xl text-left text-kyle-dark`}>about me</h1>
                         <div className="w-8 sm:w-12 h-[5px] sm:h-[7px] col-span-2 col-start-6 my-6 bg-kyle-dark" />
@@ -65,13 +65,16 @@ export default function InfoPage() {
                             it&apos;s nice to meet you.
                         </p>
                         <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
-                            I&apos;m a recent graduate at the University of Washington Bothell, majoring in Computer Science & Software Engineering.
+                            I&apos;m a recent graduate of the University of Washington Bothell, majoring in Computer Science & Software Engineering.
                         </p>
                         <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
                             My areas of interest include UI/UX, web development, DevOps, and game development.
                         </p>
                         <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
                             With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.
+                        </p>
+                        <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
+                            Outside of development, I enjoy doing art, kendo, film photography, and cooking!
                         </p>
 
                         <p className={`${sf.className} font-bold text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4 underline`}>

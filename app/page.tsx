@@ -32,7 +32,7 @@ export default function Home() {
         {/* Left Header Text */}
         <FadeInAnimation className="w-full h-auto col-span-3 col-start-1">
           <h1 className={`${sf.className} font-bold text-6xl sm:text-8xl sm:px-0 sm:mb-6 mb-2 text-left text-kyle-dark`}> kyle </h1>
-          <h1 className={`${sf.className} font-bold text-6xl sm:text-8xl sm:px-0 sm:mb-6 mb-1 text-left text-kyle-dark`}> {" "} huynh, </h1>
+          <h2 className={`${sf.className} font-bold text-6xl sm:text-8xl sm:px-0 sm:mb-6 mb-1 text-left text-kyle-dark`}> {" "} huynh, </h2>
 
           <HeroCursorText />
 
@@ -46,7 +46,7 @@ export default function Home() {
         xl:col-start-9
         
         ">
-          <h1 className={`${sf.className} w-96 lg:mt-40 font-bold text-3xl xl sm:text-4xl text-left text-kyle-dark `} > {"{"} {motd} {"}"} </h1>
+          <h2 className={`${sf.className} w-96 lg:mt-40 font-bold text-3xl xl sm:text-4xl text-left text-kyle-dark `} > {"{"} {motd} {"}"} </h2>
           <div className="w-8 sm:w-12 h-[5px] sm:h-[7px] col-span-2 col-start-6 my-6 bg-kyle-dark" />
           <p className={`${sf.className} md:w-96 font-light text-2xl sm:text-3xl text-left text-kyle-dark`}>
             i’m kyle, a software engineer and graphic designer based
