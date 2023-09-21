@@ -68,17 +68,17 @@ export default function InfoPage() {
                             I&apos;m a recent graduate of the University of Washington Bothell, majoring in Computer Science & Software Engineering.
                         </p>
                         <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
-                            My areas of interest include UI/UX, web development, DevOps, and game development.
+                            My areas of interest include UI/UX, web design, and game development.
                         </p>
                         <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
                             With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.
                         </p>
                         <p className={`${sf.className} font-light text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4`}>
-                            Outside of development, I enjoy doing art, kendo, film photography, and cooking!
+                            Outside of programming, I enjoy film photography, kendo, and fishing!
                         </p>
 
                         <p className={`${sf.className} font-bold text-2xl sm:text-xl lg:text-2xl text-left text-kyle-dark mb-4 underline`}>
-                            <Link href="/contact">Get in touch!</Link>
+                            <Link href="/contact">Get in touch</Link>
                         </p>
 
 
