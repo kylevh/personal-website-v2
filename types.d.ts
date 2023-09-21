@@ -5,6 +5,7 @@ interface ProjectItem {
     desc: string,
     pageDesc: string,
     imagePath: string,
+    images: string[],
     link1: string,
     link2: string,
     categories: string[],

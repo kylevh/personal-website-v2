@@ -39,7 +39,7 @@ export default function InfoPage() {
                                 <h2 className={`${sf.className} font-light text-3xl underline`}><Link href="mailto:kylevh@outlook.com">email</Link></h2>
                                 <h2 className={`${sf.className} font-light text-3xl underline`}><Link href="https://www.linkedin.com/in/kylevhuynh/">linkedin</Link></h2>
                                 <h2 className={`${sf.className} font-light text-3xl underline`}><Link href="https://www.github.com/kylevh">github</Link></h2>
-                                <button className={`${sf.className} font-light text-2xl mt-3 h-11 px-5 text-kyle-dark transition-colors duration-150 border border-kyle-dark rounded-none focus:shadow-outline hover:bg-kyle-dark hover:text-kyle-white`}><Link href={RESUME_URL}>resume</Link></button>
+                                <button className={`${sf.className} font-light text-2xl mt-3 h-11 px-5 text-kyle-dark transition-colors duration-150 border border-kyle-dark rounded-none focus:shadow-outline hover:bg-kyle-dark hover:text-kyle-white`}><Link className="w-full" href={RESUME_URL}>resume</Link></button>
                             </div>
 
                         </div>
@@ -47,7 +47,7 @@ export default function InfoPage() {
                             <h2 className={`${sf.className} text-2xl font-light underline`}><Link href="mailto:kylevh@outlook.com">email</Link></h2>
                             <h2 className={`${sf.className} text-2xl font-light underline`}><Link href="https://www.linkedin.com/in/kylevhuynh/">linkedin</Link></h2>
                             <h2 className={`${sf.className} text-2xl font-light underline`}><Link href="https://www.github.com/kylevh">github</Link></h2>
-                            <Button className={`${sf.className} font-light text-xl mt-2`}><Link href={RESUME_URL}>resume</Link></Button>
+                            <Button className={`${sf.className} font-light text-xl mt-2`}><Link className="w-full" href={RESUME_URL}>resume</Link></Button>
                         </div>
 
 
