@@ -80,7 +80,7 @@ const projects = [
         id: 7,
         title: 'PokePoke - 2D Video Game',
         desc: 'PokePoke 2D local multiplayer fighting game with platformer elements, intense combat, and captivating graphics created using Unity Engine',
-        pageDesc: 'PokePoke is a local multiplayer fighting game created using C# and Unity Game Engine. This game offers an engaging experience that combines platformer elements with intense aerial and projectile combat. Players engage in thrilling 1v1 duels, competing in best-of-three matches to determine the superior poke flavor. With captivating graphics and intuitive gameplay, PokePoke promises hours of fun and competition.',
+        pageDesc: 'PokePoke is a local multiplayer fighting game created using C# and Unity Game Engine. This game offers an engaging experience that combines platformer elements with intense aerial and projectile combat. Players engage in thrilling 1v1 duels, competing in best-of-three matches to determine the superior poke flavor.',
         imagePath: "/images/projects/pokepoke.png",
         images: [],
         link1: '',
