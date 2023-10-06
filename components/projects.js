@@ -102,7 +102,7 @@ const projects = [
         id: 9,
         title: 'Real Estate Website Design',
         desc: `A fully-customized, sleek, and modern website created from scratch using NextJS 13 and TypeScript`,
-        pageDesc: `The DEPHomes redesign employs the latest technologies, including NextJS 13, TypeScript, and Tailwind CSS. This website was crafted from the ground up to meet the needs of a prestigious real estate company, collaborating closely with the company's employees to design a website that not only met but exceeded their expectations, ensuring a seamless and visually captivating user experience.`,
+        pageDesc: `The DEPHomes redesign employs the latest technologies, including NextJS 13, TypeScript, and Tailwind CSS. This website was crafted from the ground up to meet the needs of DEPHomes, a real estate company, collaborating closely with the company's employees to design a seamless and visually captivating user experience.`,
         imagePath: "/images/projects/dephomes.png",
         images: [],
         link1: '',
