@@ -5,18 +5,10 @@ import { LeftInAnimation } from "@/components/pages/LeftInAnimation";
 import { RightInAnimation } from "@/components/pages/RightInAnimation";
 import { UpAnimation } from "@/components/pages/UpAnimation";
 import { FadeInAnimation } from "@/components/pages/FadeInAnimation";
+import LocalTime from "@/components/pages/LocalTime";
 
 export default function Home() {
-  let motd = "";
 
-  const localClientTime = new Date().getHours();
-  if (5 <= localClientTime && localClientTime < 12) {
-    motd = "good morning."
-  } else if (12 <= localClientTime && localClientTime < 18) {
-    motd = "good afternoon."
-  } else {
-    motd = "good evening."
-  }
 
   return (
     <main className="flex h-screen items-center justify-center p-2 sm:p-24 bg-kyle-white">
@@ -46,7 +38,7 @@ export default function Home() {
         xl:col-start-9
         
         ">
-          <h2 className={`${sf.className} w-96 lg:mt-40 font-bold text-3xl xl sm:text-4xl text-left text-kyle-dark `} > {"{"} {motd} {"}"} </h2>
+          <LocalTime/>
           <div className="w-8 sm:w-12 h-[5px] sm:h-[7px] col-span-2 col-start-6 my-6 bg-kyle-dark" />
           <p className={`${sf.className} md:w-96 font-light text-2xl sm:text-3xl text-left text-kyle-dark`}>
             i’m kyle, a software engineer and graphic designer based
